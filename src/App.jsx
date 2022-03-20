@@ -20,6 +20,7 @@ function App() {
                     />
                     <Route exact path="/home" component={Home} />
                     <Route exact path="/quiz" component={Quiz} />
+                    <Redirect to="/home" />
                 </Switch>
             </Layout>
         </Router>
