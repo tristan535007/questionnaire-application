@@ -9,7 +9,7 @@ import {
 } from '@mui/material';
 import { useHistory } from 'react-router-dom';
 
-export const FinalResultCard = ({ score }) => {
+export const FinalResultCard = ({ score = 0 }) => {
     const theme = useTheme();
     const history = useHistory();
 
